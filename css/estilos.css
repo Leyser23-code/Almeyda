@@ -82,6 +82,7 @@ h1{
     text-align: justify;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    background-color: #000000;
     padding: 20px;
     margin: 0 120px;
     border: 5px dashed red;
