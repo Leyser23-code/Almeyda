@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.reset-container-space {
+    padding: 0 !important;
+}
+.nav-link-center {
+    justify-content: center;
+}
+.nav-link-center a {
+    padding: 0 25px;
+}
+.cabecera{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #2B0CF2;
+    /* padding: 7px 300px 7px 0px; */
+    font-size: 1.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    height: 100px;
+    line-height: 90px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  padding-left: 150px;
+  float: left;
+}
+
+body{
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.clearfix{
+    float: none;    
+    clear: both;
+}
+
+#menu{
+    background-color: red;
+}
+
+#menu ul li{
+    /*display: inline-block;*/ 
+    display: block;
+    float: left;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif:
+}
+
+#menu ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    display: block;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: #3D3D3D;
+}
+.presentacion{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 0 120px;
+    border: 5px dashed red;
+    background-image: url(/img/body/darkness.png);
+}
+
+#flyer img{
+    width: 100%;
+    height: 30em;
+   /* margin: 0px 180px; */
+}
+.menu-productos{
+    /* padding: 20px 20px; */
+    padding-top: 25px;
+    margin: 0 120PX;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen-producto{
+    height: 20px;
+    width: 20px;
+}
+
+main section img{
+    width: 100%;
+}
+.w-video{
+    width: 50% !important;
+    margin: 0 auto;
+}
+body footer{
+    background-color: red;
+    color: white;
+    margin-left: 0;
+    /* padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.iframe-video{
+    align-items: center;
+    margin-left: 470px;
+}
+body footer hr{
+    color: white;
+    border:solid;
+    margin-right: 100px;
+    width: 100%;
+}
+body footer a img{
+    width: 60px;
+    height: 60px;
+}
+.navbar-mobile {
+    display: block;
+}
+.container-vidio {
+    margin: 15px 0;
+}
+.container-vidio h1{
+    margin: 15px 0;
+    padding-top: 30px;
+}
+.space-redes{
+    padding: 0 0.5rem;
+}
+.footer-list{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    justify-content: flex-start;
+    width: 100%;
+}
+.footer-list li {
+    display: inline-block;
+    width: 5%;
+}
+.list-bank{
+    position: absolute;
+    right: 5%;
+    width: 25% !important;
+}
+@media (min-width: 992px) {
+    .navbar-mobile {
+        display: none;
+    }
+    
+    
+}
+@media (max-width: 876px) {
+    .menu-productos,
+    .presentacion{
+        margin: 0;
+    }
+    #flyer img{
+       height: auto;
+    }
+    
+}
+/*NOSOTROS*/
+.initial-height img {
+    height: auto;
+    max-height: 504px;
+    object-fit: cover;
+}
+
+.space-bootom {
+    margin-bottom: 1.3rem;
+}
+/*MARCAS*/
+.initial-images img{
+    width: 100%;
+}
+/*MODIOS DE PAGO*/
+._content-figure{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.float-btn { 
+    position: absolute;
+    bottom: 35px;
+    right: 0;
+}
+.float-btn svg {
+    width: 33px;
+    height: 23px;
+    color: #ffffff;
+}
+.p-ft img{
+    width: 100%;
+}
+.images-initial-marcas img{
+    height: 82px;
+    object-fit: contain;
+}
